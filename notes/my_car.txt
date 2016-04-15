@@ -1,0 +1,52 @@
+173338, 173423, 173498, 173620, 173777, 173860, 173940, 174016, 174103, 174213,
+174313, 174512, 174632, 174742, 174817, 174899, 175053, 175175, 175297, 175414,
+175770 
+
+---------------------------------------
+-bad 2200022100101122101101010221001011
+{main: {upper: [], lower: [0,1,2]},aux: {upper: [2,0,1], lower: [0,1,2]}}
+---------------------------------------
+185298
+2202210010110022100101110221011010
+{main: {upper: [0,1,2], lower: []},aux: {upper: [0,1,2], lower: [2,0,1]}}
+---------------------------------------
+22022220220000000000000000222210010000000000000000000022000
+You have submitted the car 164493 with size 7. This is car #3 out of 72 you can produce at most. A special comment for you:
+circuit output starts with
+    11021210112101221
+this is a legal prefix
+you have produced fuel
+for 1 tanks
+using 1 ingredients of air
+checking reaction chamber 0
+checking reaction chamber 1
+Good! The car can use this fuel.
+---------------------------------------
+22022000010220001010
+You have submitted the car 165404 with size 7. This is car #4 out of 72 you can produce at most. A special comment for you:
+circuit output starts with
+    11021210112101221
+this is a legal prefix
+you have produced fuel
+for 1 tanks
+using 1 ingredients of air
+checking reaction chamber 0
+checking reaction chamber 1
+Good! The car can use this fuel.
+---------------------------------------
+122100101102222000011101000
+
+You have submitted the car 138948 with size 6173. This is car #2 out of 72 you can produce at most. A special comment for you: 
+circuit output starts with
+    11021210112101221
+this is a legal prefix
+you have produced fuel
+for 3 tanks
+using 2 ingredients of air
+checking reaction chamber 0
+Good! The car can use this fuel.
+
+
+[9:25:32 AM] Ian Zborovsky: и ее топливо
+(из исходников генератора)
+2,2,1,0, 2,2,0, 2,2,0, 1,0, 0, 2,2,0, 0, 0, 2,2,0, 2,2,0, 1,0, 1,1, 2,2,0, 0, 1,0,  2,2,0, 2,2,0, 1,0, 0, 2,2,0, 1,1, 1,0

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icfp06", "icfp06.csproj", "{FC6B71BA-2227-4F92-AD02-02EC14D9F393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6B71BA-2227-4F92-AD02-02EC14D9F393}.Debug|x86.ActiveCfg = Debug|x86
+		{FC6B71BA-2227-4F92-AD02-02EC14D9F393}.Debug|x86.Build.0 = Debug|x86
+		{FC6B71BA-2227-4F92-AD02-02EC14D9F393}.Release|x86.ActiveCfg = Release|x86
+		{FC6B71BA-2227-4F92-AD02-02EC14D9F393}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

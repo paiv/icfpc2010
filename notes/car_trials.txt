@@ -1,0 +1,64 @@
+
+
+-----------------------------
+2222000000000000000000000
+220000000
+this car is not minimal.
+-----------------------------
+221111110111111
+"input" (line 1, column 16): unexpected end of input	
+expecting: '0', expecting: '1', expecting: '2'
+ or numerical value must be 0 or 1 here
+-----------------------------
+122000012000
+"input" (line 1, column 10): unexpected token
+expecting: '2'
+-----------------------------
+1222      - expecting: '2'   
+12202     - expecting: '2'   
+122002    - expecting: '2'   
+1220002   - expecting: '2' or numerical value must be 0 or 1 here
+1220001   - expecting: '0', expecting: '1', expecting: '2' or numerical value must be 0 or 1 here
+12200000  - In the car, tank 0 is not properly connected to itself
+122000100 - car must contain at least one Main reaction chamber
+1220001010 - car must contain at least one Main reaction chamber
+-----------------------------
+122000010 - valid
+122000001 - "input" (line 1, column 9): unexpected '1' expecting end of input
+
+100 22 00 0    - In the car, tank 0 is not properly connected to itself
+122 00 00 0    - In the car, tank 0 is not properly connected to itself
+122 00 100 0   - In the car, tank 1 is not properly connected to tank 0
+122 00 110 0   - In the car, tank 2 is not properly connected to tank 0
+122 00 120 0   - In the car, tank 3 is not properly connected to tank 0
+122 00 22000 00 - In the car, tank 4 is not properly connected to tank 0
+122 02 20 00000 - In the car, tank 4 is not properly connected to tank 0
+122 00 22001 00 - In the car, tank 5 is not properly connected to tank 0
+122 00 22002 00 - In the car, tank 6 is not properly connected to tank 0
+122 00 22010 00 - In the car, tank 7 is not properly connected to tank 0
+122 00 22012 00 - In the car, tank 9 is not properly connected to tank 0
+122 00 22022 00 - In the car, tank 12 is not properly connected to tank 0
+
+122 01 00 00   - In the car, tank 1 is not properly connected to tank 0
+122 01 10 00   - In the car, tank 2 is not properly connected to tank 0
+122 0 000110  - In the car, tank 1 is not properly connected to tank 0
+122 1 0110000 - In the car, tank 2 is not properly connected to tank 0
+122 1 20000000 - In the car, tank 0 is not properly connected to itself
+122 02 20 00000 - In the car, tank 4 is not properly connected to tank 0
+122 1 200001100 - In the car, tank 2 is not properly connected to tank 0
+122 1 110000010 - In the car, tank 0 is not properly connected to tank 1
+122 0 000220100 - In the car, tank 1 is not properly connected to tank 0
+122 00 0012 20 00 - In the car, tank 4 is not properly connected to tank 0
+122 22 00 00 00 00 000 - In the car, tank 0 is not properly connected to itself
+
+22102200000000000 - In the car, tank 0 is not properly connected to itself
+2210220022000022000000000 - In the car, tank 0 is not properly connected to tank 4
+-----------------------------
+-----------------------------
+10100
+car must contain at least one Main reaction chamber
+    Nein.
+-----------------------------
+car: 1000
+dimension mismatch
+-----------------------------

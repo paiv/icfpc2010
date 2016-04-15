@@ -1,0 +1,38 @@
+
+car := <nchambers> [<chamber> ...]
+chamber := <pipe> <type> <pipe>
+pipe := <nsections> [<section> ...]
+section : = <tankref>
+
+tankref := <number>
+nchambers := <prefixed_number>
+nsections := <prefixed_number>
+prefixed_number := ( "0" | "1" | "22" <number>)
+
+
+0, 1, 220, 2210, 2211
+
+
+
+ 0 - 0
+ 1 - 10
+ 2 - 11
+ 3 - 12
+ 4 - 22000
+ 5 - 22001
+ 6 - 22002
+ 7 - 22010
+ 9 - 22012
+12 - 22022
+13 - 2210000
+14 - 2210001
+39 - 2210222
+
+
+валидный хедер (первые два символа):
+0     - This instance already exists
+1000  - dimension mismatch
+11000 - In the car, tank 0 is not properly connected to itself
+12200000 - In the car, tank 0 is not properly connected to itself
+220000000 - this car is not minimal
+2210000000000 - this car is not minimal
